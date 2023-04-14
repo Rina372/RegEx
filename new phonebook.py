@@ -59,3 +59,5 @@ new_contacts_list = input_data()
 new_list = contact_list_correct(new_contacts_list)
 
 correct_contact_book = delete_duplicates(new_list)
+
+write_data(correct_contact_book)
